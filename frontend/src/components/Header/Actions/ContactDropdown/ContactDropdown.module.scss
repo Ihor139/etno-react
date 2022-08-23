@@ -1,0 +1,95 @@
+.contact {
+}
+.inner {
+  position: relative;
+  padding: 24px 43px;
+}
+.close {
+  width: 100%;
+}
+.ico {
+  margin-bottom: 40px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  width: fit-content;
+  margin-left: auto;
+}
+.content {
+}
+.messangers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+  list-style: none;
+  margin-bottom: 63px;
+  padding: 0 20px;
+}
+.messanger a {
+  font-family: "AkzidenzGroteskPro";
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 17px;
+  color: #1e0f00;
+}
+.phones {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 75px;
+}
+.phone a {
+  font-family: "AkzidenzGroteskPro";
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 17px;
+  color: #1e0f00;
+  transition: 0.2s;
+  &:hover {
+    color: #fb514f;
+  }
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 63px;
+}
+.info {
+  display: block;
+  font-family: "AkzidenzGroteskPro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 17px;
+  color: #1e0f00;
+  margin-bottom: 23px;
+  text-align: center;
+  white-space: nowrap;
+}
+.shedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  span {
+    font-family: "AkzidenzGroteskPro";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 17px;
+    color: #1e0f00;
+  }
+}
+.email {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "AkzidenzGroteskPro";
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 17px;
+  color: #1e0f00;
+}

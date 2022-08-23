@@ -1,0 +1,22 @@
+.actionDropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  transition: 0.2s;
+  transform: translateY(-120%);
+  border: 1px solid #c4c4c4;
+  max-width: 400px;
+  width: 100%;
+  
+  &.open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.search {
+  width: 100%;
+}

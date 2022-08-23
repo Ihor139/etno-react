@@ -1,0 +1,106 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #c4c4c4;
+}
+.content {
+  width: 100%;
+}
+.inner {
+  width: 100%;
+}
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 45px;
+}
+.form {
+  margin-left: auto;
+}
+.formLabel {
+}
+.formTxt {
+}
+.formInput {
+  width: 520px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 16px;
+  max-width: 520px;
+  padding: 8px 32px;
+  font-family: "AkzidenzGroteskPro";
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 17px;
+  color: #1e0f00;
+  outline: none;
+  text-transform: lowercase;
+  transform: translateX(36px);
+}
+.close {
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0 12px;
+}
+.closIco {
+}
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 51px 0;
+  border-top: 1px solid #c4c4c4;
+}
+.resultInner {
+  padding: 0 45px;
+}
+.resultList {
+}
+.resultItem {
+}
+.resultLink {
+  line-height: 100%;
+  margin-bottom: 23px;
+  font-family: "AkzidenzGroteskPro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  color: #1e0f00;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.resultAll {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1e0f00;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.resultAllTxt {
+  line-height: 100%;
+  font-family: "AkzidenzGroteskPro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 13px;
+  color: #1e0f00;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.resultAllIco {
+}

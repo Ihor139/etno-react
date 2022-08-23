@@ -1,0 +1,22 @@
+.menuDropdown {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin-left: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 43px 116px 50px 83px;
+  min-height: 457px;
+  border-top: 1px solid #c4c4c4;
+  background-color: #fff;
+  transition: .2s;
+  transform: translateY(-120%);
+  &.open {
+    visibility: visible;
+    opacity: 1;
+    transition: 0s;
+  }
+}

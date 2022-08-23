@@ -1,0 +1,38 @@
+@import "./_reset.scss";
+@import "./fonts.scss";
+
+* {
+  font-family: "AvenirNext";
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+html.disablScroll,
+body.disableScroll {
+  overflow: hidden;
+}
+
+.siteContainer {
+  padding: 0 45px;
+}
+
+@media (max-width: 1024px) {
+  .siteContainer {
+    padding: 0 20px;
+  }
+}
+
+.lazyImg {
+  transition: opacity 0.3s linear 0.3s;
+  opacity: 0;
+}
+
+.lazyloading,
+.lazyloaded {
+  opacity: 1;
+}
