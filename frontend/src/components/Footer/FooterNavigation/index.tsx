@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -29,13 +30,19 @@ const NavItem: React.FC<NavItemProps> = ({ title, link, color }) => {
 };
 
 const FooterNavigation: React.FC = () => {
+  const [isSubMenuActive, setSubMenuActive] = React.useState<boolean>(false);
+
   return (
     <div className={styles.nav}>
       {navData?.map((item) => (
         <NavItem {...item} key={item.id} />
       ))}
 
-      <div className={`${styles.item} ${styles.projectMenu}`}>
+      <div
+        className={`${styles.item} ${styles.projectMenu}`}
+        onMouseEnter={() => setSubMenuActive(!isSubMenuActive)}
+        onMouseLeave={() => setSubMenuActive(!isSubMenuActive)}
+      >
         <div className={styles.link}>
           <span className="txt">Колекції</span>
           <span className="ico">
@@ -76,7 +83,7 @@ const FooterNavigation: React.FC = () => {
             </svg>
           </span>
         </div>
-        <ul className={styles.submenu}>
+        <ul className={clsx([styles.submenu, isSubMenuActive && styles.open])}>
           <li className={styles.subitem}>
             <Link className={styles.link} to="/ua/etnodim_manifest/">
               Етнодім Маніфест 2021

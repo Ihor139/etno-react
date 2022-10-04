@@ -6,48 +6,72 @@ import {
   LanguagesIcon,
   SearchIcon,
 } from "../../../UI/Icons";
+import { useHeaderContext } from "../../HeaderContext";
 
 import styles from "./Action.module.scss";
 
-const actions = [
-  { id: 1, title: "Пошук", actionClassName: "search", icon: <SearchIcon /> },
-  {
-    id: 2,
-    title: "Контакти",
-    actionClassName: "contact",
-    icon: <ContactIcon />,
-  },
-  {
-    id: 3,
-    title: "Ua/₴",
-    actionClassName: "languages",
-    icon: <LanguagesIcon />,
-  },
-  {
-    id: 4,
-    title: "Кошик",
-    count: "1",
-    actionClassName: "basket",
-    icon: <BasketIcon />,
-  },
-];
+const Action: React.FC = () => {
+  const {
+    searchOpened,
+    setSearchOpened,
+    contactOpened,
+    setContactOpened,
+    languageOpened,
+    setLanguageOpened,
+    cartOpened,
+    setCartOpened,
+  } = useHeaderContext();
 
-const Action: React.FC = ({}) => {
+  // to do
+  // create toggle click on action
+
   return (
     <div className={styles.action}>
       <ul className={styles.list}>
-        {actions?.map((item) => (
-          <li
-            key={item.id}
-            className={`${styles.item} ${item.actionClassName}}`}
-          >
-            <div className={styles.title}>
-              <div className={styles.ico}>{item.icon}</div>
-              <div className={styles.txt}>{item.title}</div>
-              {item.count && <div className={styles.count}>1</div>}
+        <li
+          className={styles.item}
+          onClick={() => setSearchOpened(!searchOpened)}
+        >
+          <div className={styles.title}>
+            <div className={styles.ico}>
+              <SearchIcon />
             </div>
-          </li>
-        ))}
+            <div className={styles.txt}>Search</div>
+          </div>
+        </li>
+        <li
+          className={styles.item}
+          onClick={() => {
+            setContactOpened(!contactOpened);
+          }}
+        >
+          <div className={styles.title}>
+            <div className={styles.ico}>
+              <ContactIcon />
+            </div>
+            <div className={styles.txt}>Contacts</div>
+          </div>
+        </li>
+        <li
+          className={styles.item}
+          onClick={() => setLanguageOpened(!languageOpened)}
+        >
+          <div className={styles.title}>
+            <div className={styles.ico}>
+              <LanguagesIcon />
+            </div>
+            <div className={styles.txt}>Ua/₴</div>
+          </div>
+        </li>
+        <li className={styles.item} onClick={() => setCartOpened(!cartOpened)}>
+          <div className={styles.title}>
+            <div className={styles.ico}>
+              <BasketIcon />
+            </div>
+            <div className={styles.txt}>Cart</div>
+            <div className={styles.count}>1</div>
+          </div>
+        </li>
       </ul>
     </div>
   );

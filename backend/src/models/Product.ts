@@ -1,39 +1,46 @@
 import mongoose from "mongoose";
+import { Product } from "./types";
 
-const ProductSchema = new mongoose.Schema(
+export const ProductSchema = new mongoose.Schema(
   {
     category: {
       type: Array,
       default: [],
-      required: true
+      required: true,
     },
     price: {
       nested: {
         nested: {
-          $numberDecimal: {
-            type: Number,
-            required: true
-          },
+          type: Number,
+          required: true,
         },
-        currency: String
+        currency: String,
       },
     },
     options: {
-      nested: {
-        size: Object
-      }
+      sizes: {
+        type: Array,
+        nested: {
+          title: String,
+          amount: Number,
+        },
+      },
+      features: Array,
+      colors: Array,
+      images: Array,
     },
-    features: Array,
-    colors: Array,
-    images: Array,
     title: {
       type: String,
-      required: true
+      required: true,
+    },
+    link: {
+      type: String,
+      required: true,
     },
   },
   {
     timestamps: true,
   }
-)
+);
 
-export default mongoose.model("Product", ProductSchema);
+export default mongoose.model<Product & mongoose.Document>("Product", ProductSchema);

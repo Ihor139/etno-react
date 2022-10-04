@@ -16,7 +16,11 @@ const FooterInfo: React.FC = () => {
         </a>
       </address>
       <div className={styles.shedule}>
-        <p>Пн - Пт 10:00 - 19:00 / Сб - Нд 11:00 - 19:00</p>
+        <p>
+          Пн - Пт 10:00 - 19:00
+          <br />
+          Сб - Нд 11:00 - 19:00
+        </p>
       </div>
     </div>
   );

@@ -45,16 +45,32 @@
 }
 
 .submenu {
-  // visibility: hidden;
-  // opacity: 0;
-  // transform: translateY(-120%);
-  transition: 0.2s;
+  height: 0;
+  overflow: hidden;
+  transition: 400ms;
   position: absolute;
   width: 216px;
-  top: 140%;
-  // left: 0;
+  top: 100%;
   z-index: 1;
   text-align: left;
   background-color: #fff;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  &.open{
+    height: 100px;
+  }
+}
+
+.slide-enter {
+  height: 0px;
+  overflow: visible;
+}
+
+.slide-enter.slide-enter-active {
+  height: 100px;
+  -webkit-transition: height .3s ease;
+}
+
+.slide-leave.slide-leave-active {
+  height: 0px;
+  -webkit-transition: height .3s ease;
 }
