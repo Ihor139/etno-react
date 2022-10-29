@@ -126,6 +126,9 @@
   line-height: 18px;
   color: #1d1d1b;
   background-color: transparent;
+  &.activeSize{
+    text-decoration: underline;
+  }
 }
 
 .goodsCaseActions  button:hover {

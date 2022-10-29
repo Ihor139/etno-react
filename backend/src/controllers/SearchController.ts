@@ -1,34 +1,22 @@
-import { Request, Response } from "express";
-import ProductModel from "../models/Product";
-import { Product } from "../models/types";
-/**
- * получаем список всех продуктов
- */
-export const searchProduct = async (
-  req: Request,
-  res: Response,
-  next: Function
-) => {
-  try {
-    const result: Product[] = await ProductModel.find({
-      $or: [
-        { title: { $regex: req.params.key, $options: "i" } },
-        { category: { $elemMatch: { $regex: req.params.key, $options: "i" } } },
+import {Request, Response} from "express";
+import SearchService from "../service/Search"
 
-        // TO DO search by color
+class SearchController {
+	getResult = async (
+		req: Request,
+		res: Response,
+		next: Function
+	) => {
+		try {
+			const result = await SearchService.getResult(req.params.key);
+			res.json(result);
+		} catch (error) {
+			console.log(error);
+			res.status(500).json({
+				message: "Not found",
+			});
+		}
+	};
+}
 
-        // {
-        //   "options.colors": {
-        //     $elemMatch: { $in: { $regex: req.params.key, $options: "i" } },
-        //   },
-        // },
-      ],
-    });
-    res.json(result);
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({
-      message: "Not found",
-    });
-  }
-};
+export default new SearchController();

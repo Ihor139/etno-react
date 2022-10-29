@@ -1,21 +1,16 @@
-type Size = {
-  title?: string;
-  amount?: number;
-};
 
 export type Product = {
+  prodId: string;
   _id: string;
   category: string[];
   price: {
     base: number;
     currency: string;
   };
-  options: {
-    sizes: Size[];
-    features: string[];
-    colors: string[];
-    images: string[];
-  };
+  size: string;
+  features: string[];
+  colors: string[];
+  images: string[];
   title: string;
   link: string;
 };

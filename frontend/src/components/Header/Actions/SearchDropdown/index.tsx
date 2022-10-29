@@ -9,7 +9,7 @@ import { useOutsideClick } from "../../../../hooks/useOutsideClick";
 import { useHeaderContext } from "../../HeaderContext";
 
 //redux
-import { setSearchTerm, Status } from "../../../../redux/search/slice";
+import { setSearchTerm } from "../../../../redux/search/slice";
 import {
   selectSearchResult,
   selectSearchStatus,
@@ -18,6 +18,7 @@ import {
 import { fetchItems } from "../../../../redux/search/asyncSearch";
 import { useIsMount } from "../../../../hooks/useIsmount";
 import { AppDispatch } from "../../../../redux/store";
+import {Status} from "../../../../@types";
 
 const SearchDropdown: React.FC = () => {
   const isMount = useIsMount();
@@ -82,7 +83,7 @@ const SearchDropdown: React.FC = () => {
                     type="text"
                     placeholder="Start typing to search"
                   />
-                  {searchStatus === Status.LOADING ? (
+                  {searchStatus == Status.LOADING ? (
                     <span className={styles.inputIco}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

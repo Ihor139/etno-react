@@ -1,5 +1,8 @@
+import { Status } from "../../@types";
+
 export interface NavigationSliceState {
   menuItems: Item[];
+  status: Status
 }
 
 export type Menu = {

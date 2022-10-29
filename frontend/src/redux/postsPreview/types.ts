@@ -1,5 +1,8 @@
+import {Status} from "../../@types";
+
 export interface PostsPreviewSliceState {
   posts: Post[];
+  status: Status
 }
 
 export type Post = {

@@ -1,25 +1,23 @@
+import {Status} from "../../@types";
+
 export interface ProductPreviewSliceState {
-  products: Product[];
+	items: Product[];
+	status: Status;
 }
 
-type Size = {
-  title?: string;
-  amount?: number;
-};
-
 export type Product = {
-  _id: object;
-  category: string[];
-  price: {
-    base: number;
-    currency: string;
-  };
-  options: {
-    sizes?: Size[];
-    features?: string[];
-    colors?: string[];
-    images?: string[];
-  };
-  title: string;
-  link: string;
+	prodId: string,
+	_id: string;
+	category: string[];
+	price: {
+		base: number;
+		currency: string;
+	};
+	size: string;
+	features?: string[];
+	colors?: string[];
+	images?: string[];
+	title: string;
+	link: string;
+	sizes: object[];
 };

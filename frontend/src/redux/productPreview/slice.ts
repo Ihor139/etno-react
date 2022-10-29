@@ -1,10 +1,12 @@
 import { fetchProductsPreview } from "./asyncProduct";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-import { ProductPreviewSliceState, Product } from "./types";
+import {Product, ProductPreviewSliceState} from "./types";
+import {Status} from "../../@types";
 
 const initialState: ProductPreviewSliceState = {
-  products: [],
+  items: [],
+  status: Status.LOADING
 };
 
 export const slice = createSlice({
@@ -13,15 +15,19 @@ export const slice = createSlice({
   reducers: {},
   // код для createAsyncThunk
   extraReducers: (builder) => {
-    builder.addCase(fetchProductsPreview.pending, (state, action) => {});
+    builder.addCase(fetchProductsPreview.pending, (state, action) => {
+      state.status = Status.LOADING;
+    });
     builder.addCase(
       fetchProductsPreview.fulfilled,
       (state, action: PayloadAction<Product[]>) => {
-        state.products = action.payload;
+        state.items = action.payload;
+        state.status = Status.SUCCESS;
       }
     );
     builder.addCase(fetchProductsPreview.rejected, (state, action) => {
-      state.products = [];
+      state.items = [];
+      state.status = Status.ERROR;
     });
   },
 });

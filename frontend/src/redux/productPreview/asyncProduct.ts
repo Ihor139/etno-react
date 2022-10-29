@@ -1,10 +1,9 @@
-import { Product } from "./types";
-// вынесли асинхронную логику получения данных с UI в redux
+import {Product} from "./types";
 
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-export const fetchProductsPreview = createAsyncThunk("/new-products", async () => {
-  const { data } = await axios.get<Product[]>("/new-products");
+export const fetchProductsPreview = createAsyncThunk("/products/new", async () => {
+  const { data } = await axios.get<Product[]>("/products/new");
   return data;
 });

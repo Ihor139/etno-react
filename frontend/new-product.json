@@ -1,0 +1,1859 @@
+[
+	{
+		"prodId": 100,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sonyakh-1.jpg",
+			"media/images/sonyakh-2.jpg",
+			"media/images/sonyakh-3.jpg",
+			"media/images/sonyakh-4.jpg"
+		],
+		"title": "Women's embroidery Sonyakh",
+		"link": "/sonyakh"
+	},
+	{
+		"prodId": 100,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 4,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sonyakh-1.jpg",
+			"media/images/sonyakh-2.jpg",
+			"media/images/sonyakh-3.jpg",
+			"media/images/sonyakh-4.jpg"
+		],
+		"title": "Women's embroidery Sonyakh",
+		"link": "/sonyakh"
+	},
+	{
+		"prodId": 100,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sonyakh-1.jpg",
+			"media/images/sonyakh-2.jpg",
+			"media/images/sonyakh-3.jpg",
+			"media/images/sonyakh-4.jpg"
+		],
+		"title": "Women's embroidery Sonyakh",
+		"link": "/sonyakh"
+	},
+	{
+		"prodId": 100,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sonyakh-1.jpg",
+			"media/images/sonyakh-2.jpg",
+			"media/images/sonyakh-3.jpg",
+			"media/images/sonyakh-4.jpg"
+		],
+		"title": "Women's embroidery Sonyakh",
+		"link": "/sonyakh"
+	},
+	{
+		"prodId": 100,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sonyakh-1.jpg",
+			"media/images/sonyakh-2.jpg",
+			"media/images/sonyakh-3.jpg",
+			"media/images/sonyakh-4.jpg"
+		],
+		"title": "Women's embroidery Sonyakh",
+		"link": "/sonyakh"
+	},
+	{
+		"prodId": 200,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 4,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"blue"
+		],
+		"images": [
+			"media/images/svitlo-1.jpg",
+			"media/images/svitlo-2.jpg",
+			"media/images/svitlo-3.jpg",
+			"media/images/svitlo-4.jpg"
+		],
+		"title": "Dress Svitlo",
+		"link": "/svitlo\""
+	},
+	{
+		"prodId": 200,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 7,
+		"features": [
+			"72 sheets of premium lined "
+		],
+		"colors": [
+			"white",
+			"blue"
+		],
+		"images": [
+			"media/images/svitlo-1.jpg",
+			"media/images/svitlo-2.jpg",
+			"media/images/svitlo-3.jpg",
+			"media/images/svitlo-4.jpg"
+		],
+		"title": "Dress Svitlo",
+		"link": "/svitlo\""
+	},
+	{
+		"prodId": 200,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 3,
+		"features": [
+			"72 sheets of lined "
+		],
+		"colors": [
+			"white",
+			"blue"
+		],
+		"images": [
+			"media/images/svitlo-1.jpg",
+			"media/images/svitlo-2.jpg",
+			"media/images/svitlo-3.jpg",
+			"media/images/svitlo-4.jpg"
+		],
+		"title": "Dress Svitlo",
+		"link": "/svitlo\""
+	},
+	{
+		"prodId": 200,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 5,
+		"features": [
+			"72 sheets of lined "
+		],
+		"colors": [
+			"white",
+			"blue"
+		],
+		"images": [
+			"media/images/svitlo-1.jpg",
+			"media/images/svitlo-2.jpg",
+			"media/images/svitlo-3.jpg",
+			"media/images/svitlo-4.jpg"
+		],
+		"title": "Dress Svitlo",
+		"link": "/svitlo\""
+	},
+	{
+		"prodId": 200,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 3,
+		"features": [
+			"72 sheets of lined "
+		],
+		"colors": [
+			"white",
+			"blue"
+		],
+		"images": [
+			"media/images/svitlo-1.jpg",
+			"media/images/svitlo-2.jpg",
+			"media/images/svitlo-3.jpg",
+			"media/images/svitlo-4.jpg"
+		],
+		"title": "Dress Svitlo",
+		"link": "/svitlo\""
+	},
+	{
+		"prodId": 300,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "4200",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 3,
+		"features": [
+			"Men 72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black"
+		],
+		"images": [
+			"media/images/vinnytska-1.jpg",
+			"media/images/vinnytska-2.jpg",
+			"media/images/vinnytska-3.jpg",
+			"media/images/vinnytska-4.jpg"
+		],
+		"title": "Embroidery Vinnytska",
+		"link": "/vinnytska"
+	},
+	{
+		"prodId": 300,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "4200",
+			"currency": "UAH"
+		},
+		"size": "XL",
+		"amount": 2,
+		"features": [
+			"Men 72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black"
+		],
+		"images": [
+			"media/images/vinnytska-1.jpg",
+			"media/images/vinnytska-2.jpg",
+			"media/images/vinnytska-3.jpg",
+			"media/images/vinnytska-4.jpg"
+		],
+		"title": "Embroidery Vinnytska",
+		"link": "/vinnytska"
+	},
+	{
+		"prodId": 300,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "4200",
+			"currency": "UAH"
+		},
+		"size": "XXL",
+		"amount": 1,
+		"features": [
+			"Men XXl 72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black"
+		],
+		"images": [
+			"media/images/vinnytska-1.jpg",
+			"media/images/vinnytska-2.jpg",
+			"media/images/vinnytska-3.jpg",
+			"media/images/vinnytska-4.jpg"
+		],
+		"title": "Embroidery Vinnytska",
+		"link": "/vinnytska"
+	},
+	{
+		"prodId": 300,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "4200",
+			"currency": "UAH"
+		},
+		"size": "XXXL",
+		"amount": 1,
+		"features": [
+			"Men XXXl 72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black"
+		],
+		"images": [
+			"media/images/vinnytska-1.jpg",
+			"media/images/vinnytska-2.jpg",
+			"media/images/vinnytska-3.jpg",
+			"media/images/vinnytska-4.jpg"
+		],
+		"title": "Embroidery Vinnytska",
+		"link": "/vinnytska"
+	},
+	{
+		"prodId": 400,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6700",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/jungle-light-1.jpg",
+			"media/images/jungle-light-2.jpg",
+			"media/images/jungle-light-3.jpg",
+			"media/images/jungle-light-4.jpg"
+		],
+		"title": "Jungle Light dress with embroidery",
+		"link": "/jungle-light-dress"
+	},
+	{
+		"prodId": 400,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6700",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/jungle-light-1.jpg",
+			"media/images/jungle-light-2.jpg",
+			"media/images/jungle-light-3.jpg",
+			"media/images/jungle-light-4.jpg"
+		],
+		"title": "Jungle Light dress with embroidery",
+		"link": "/jungle-light-dress"
+	},
+	{
+		"prodId": 400,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6700",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/jungle-light-1.jpg",
+			"media/images/jungle-light-2.jpg",
+			"media/images/jungle-light-3.jpg",
+			"media/images/jungle-light-4.jpg"
+		],
+		"title": "Jungle Light dress with embroidery",
+		"link": "/jungle-light-dress"
+	},
+	{
+		"prodId": 400,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6700",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 4,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/jungle-light-1.jpg",
+			"media/images/jungle-light-2.jpg",
+			"media/images/jungle-light-3.jpg",
+			"media/images/jungle-light-4.jpg"
+		],
+		"title": "Jungle Light dress with embroidery",
+		"link": "/jungle-light-dress"
+	},
+	{
+		"prodId": 400,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6700",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/jungle-light-1.jpg",
+			"media/images/jungle-light-2.jpg",
+			"media/images/jungle-light-3.jpg",
+			"media/images/jungle-light-4.jpg"
+		],
+		"title": "Jungle Light dress with embroidery",
+		"link": "/jungle-light-dress"
+	},
+	{
+		"prodId": 500,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6400",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 5,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"purple"
+		],
+		"images": [
+			"media/images/geometria-1.jpg",
+			"media/images/geometria-2.jpg",
+			"media/images/geometria-3.jpg",
+			"media/images/geometria-4.jpg"
+		],
+		"title": "Linen dress with the smell of Geometria",
+		"link": "linen-dress-geometria"
+	},
+	{
+		"prodId": 600,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "7800",
+			"currency": "UAH"
+		},
+		"sizes": "XS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green"
+		],
+		"images": [
+			"media/images/korchynskyi-green-1.jpg",
+			"media/images/korchynskyi-green-2.jpg",
+			"media/images/korchynskyi-green-3.jpg",
+			"media/images/korchynskyi-green-4.jpg"
+		],
+		"title": "Green linen embroidery Korchynskyi Green",
+		"link": "/green-linen-emboidery"
+	},
+	{
+		"prodId": 600,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "7800",
+			"currency": "UAH"
+		},
+		"sizes": "S",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green"
+		],
+		"images": [
+			"media/images/korchynskyi-green-1.jpg",
+			"media/images/korchynskyi-green-2.jpg",
+			"media/images/korchynskyi-green-3.jpg",
+			"media/images/korchynskyi-green-4.jpg"
+		],
+		"title": "Green linen embroidery Korchynskyi Green",
+		"link": "/green-linen-emboidery"
+	},
+	{
+		"prodId": 600,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "7800",
+			"currency": "UAH"
+		},
+		"sizes": "L",
+		"amount": 3,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green"
+		],
+		"images": [
+			"media/images/korchynskyi-green-1.jpg",
+			"media/images/korchynskyi-green-2.jpg",
+			"media/images/korchynskyi-green-3.jpg",
+			"media/images/korchynskyi-green-4.jpg"
+		],
+		"title": "Green linen embroidery Korchynskyi Green",
+		"link": "/green-linen-emboidery"
+	},
+	{
+		"prodId": 700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4400",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green",
+			"white"
+		],
+		"images": [
+			"media/images/kvity-u-1.jpg",
+			"media/images/kvity-u-2.jpg",
+			"media/images/kvity-u-3.jpg",
+			"media/images/kvity-u-4.jpg"
+		],
+		"title": "Linen shirt with Kvity U embroidery",
+		"link": "/linen-shirt-with-kvity-embroidery"
+	},
+	{
+		"prodId": 700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4400",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green",
+			"white"
+		],
+		"images": [
+			"media/images/kvity-u-1.jpg",
+			"media/images/kvity-u-2.jpg",
+			"media/images/kvity-u-3.jpg",
+			"media/images/kvity-u-4.jpg"
+		],
+		"title": "Linen shirt with Kvity U embroidery",
+		"link": "/linen-shirt-with-kvity-embroidery"
+	},
+	{
+		"prodId": 700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4400",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green",
+			"white"
+		],
+		"images": [
+			"media/images/kvity-u-1.jpg",
+			"media/images/kvity-u-2.jpg",
+			"media/images/kvity-u-3.jpg",
+			"media/images/kvity-u-4.jpg"
+		],
+		"title": "Linen shirt with Kvity U embroidery",
+		"link": "/linen-shirt-with-kvity-embroidery"
+	},
+	{
+		"prodId": 700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4400",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"green",
+			"white"
+		],
+		"images": [
+			"media/images/kvity-u-1.jpg",
+			"media/images/kvity-u-2.jpg",
+			"media/images/kvity-u-3.jpg",
+			"media/images/kvity-u-4.jpg"
+		],
+		"title": "Linen shirt with Kvity U embroidery",
+		"link": "/linen-shirt-with-kvity-embroidery"
+	},
+	{
+		"prodId": 800,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "5200",
+			"currency": "UAH"
+		},
+		"sizes": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black",
+			"red"
+		],
+		"images": [
+			"media/images/men-slovo-black-1.jpg",
+			"media/images/men-slovo-black-2.jpg",
+			"media/images/men-slovo-black-3.jpg",
+			"media/images/men-slovo-black-4.jpg"
+		],
+		"title": "Black linen embroidered shirt MEN'S SLOVO BLACK",
+		"link": "/slovo-black"
+	},
+	{
+		"prodId": 800,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "5200",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black",
+			"red"
+		],
+		"images": [
+			"media/images/men-slovo-black-1.jpg",
+			"media/images/men-slovo-black-2.jpg",
+			"media/images/men-slovo-black-3.jpg",
+			"media/images/men-slovo-black-4.jpg"
+		],
+		"title": "Black linen embroidered shirt MEN'S SLOVO BLACK",
+		"link": "/slovo-black"
+	},
+	{
+		"prodId": 800,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "5200",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 6,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black",
+			"red"
+		],
+		"images": [
+			"media/images/men-slovo-black-1.jpg",
+			"media/images/men-slovo-black-2.jpg",
+			"media/images/men-slovo-black-3.jpg",
+			"media/images/men-slovo-black-4.jpg"
+		],
+		"title": "Black linen embroidered shirt MEN'S SLOVO BLACK",
+		"link": "/slovo-black"
+	},
+	{
+		"prodId": 800,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "5200",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 3,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black",
+			"red"
+		],
+		"images": [
+			"media/images/men-slovo-black-1.jpg",
+			"media/images/men-slovo-black-2.jpg",
+			"media/images/men-slovo-black-3.jpg",
+			"media/images/men-slovo-black-4.jpg"
+		],
+		"title": "Black linen embroidered shirt MEN'S SLOVO BLACK",
+		"link": "/slovo-black"
+	},
+	{
+		"prodId": 800,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "5200",
+			"currency": "UAH"
+		},
+		"size": "XXL",
+		"amount": 4,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"white",
+			"black",
+			"red"
+		],
+		"images": [
+			"media/images/men-slovo-black-1.jpg",
+			"media/images/men-slovo-black-2.jpg",
+			"media/images/men-slovo-black-3.jpg",
+			"media/images/men-slovo-black-4.jpg"
+		],
+		"title": "Black linen embroidered shirt MEN'S SLOVO BLACK",
+		"link": "/slovo-black"
+	},
+	{
+		"prodId": 900,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 0,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"brown"
+		],
+		"images": [
+			"media/images/adam-brown-1.jpg",
+			"media/images/adam-brown-2.jpg",
+			"media/images/adam-brown-3.jpg",
+			"media/images/adam-brown-4.jpg"
+		],
+		"title": "Linen shirt with Adam Brown embroidery",
+		"link": "/shirt-adam-brown"
+	},
+	{
+		"prodId": 1100,
+		"category": [
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "3200",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 0,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"grey"
+		],
+		"images": [
+			"media/images/sparrow-1.jpg",
+			"media/images/sparrow-2.jpg",
+			"media/images/sparrow-3.jpg",
+			"media/images/sparrow-4.jpg"
+		],
+		"title": "Gray shirt with Sparrow embroidery",
+		"link": "/shirt-sparrow-gray"
+	},
+	{
+		"prodId": 1200,
+		"category": [
+			"child",
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "2500",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/star-beige-1.jpg",
+			"media/images/star-beige-2.jpg",
+			"media/images/star-beige-3.jpg",
+			"media/images/star-beige-4.jpg"
+		],
+		"title": "Boy's embroidered shirt STAR beige",
+		"link": "/shirt-star-beige"
+	},
+	{
+		"prodId": 1200,
+		"category": [
+			"child",
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "2500",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/star-beige-1.jpg",
+			"media/images/star-beige-2.jpg",
+			"media/images/star-beige-3.jpg",
+			"media/images/star-beige-4.jpg"
+		],
+		"title": "Boy's embroidered shirt STAR beige",
+		"link": "/shirt-star-beige"
+	},
+	{
+		"prodId": 1200,
+		"category": [
+			"child",
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "2500",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/star-beige-1.jpg",
+			"media/images/star-beige-2.jpg",
+			"media/images/star-beige-3.jpg",
+			"media/images/star-beige-4.jpg"
+		],
+		"title": "Boy's embroidered shirt STAR beige",
+		"link": "/shirt-star-beige"
+	},
+	{
+		"prodId": 1200,
+		"category": [
+			"child",
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "2500",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/star-beige-1.jpg",
+			"media/images/star-beige-2.jpg",
+			"media/images/star-beige-3.jpg",
+			"media/images/star-beige-4.jpg"
+		],
+		"title": "Boy's embroidered shirt STAR beige",
+		"link": "/shirt-star-beige"
+	},
+	{
+		"prodId": 1200,
+		"category": [
+			"child",
+			"men",
+			"embroidery"
+		],
+		"price": {
+			"base": "2500",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/star-beige-1.jpg",
+			"media/images/star-beige-2.jpg",
+			"media/images/star-beige-3.jpg",
+			"media/images/star-beige-4.jpg"
+		],
+		"title": "Boy's embroidered shirt STAR beige",
+		"link": "/shirt-star-beige"
+	},
+	{
+		"prodId": 1300,
+		"category": [
+			"child",
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "2280",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sunny-kids-1.jpg",
+			"media/images/sunny-kids-2.jpg",
+			"media/images/sunny-kids-3.jpg",
+			"media/images/sunny-kids-4.jpg"
+		],
+		"title": "Sunny Kids yellow embroidered shirt for a girl",
+		"link": "/shirt-sunny-kids"
+	},
+	{
+		"prodId": 1300,
+		"category": [
+			"child",
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "2280",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sunny-kids-1.jpg",
+			"media/images/sunny-kids-2.jpg",
+			"media/images/sunny-kids-3.jpg",
+			"media/images/sunny-kids-4.jpg"
+		],
+		"title": "Sunny Kids yellow embroidered shirt for a girl",
+		"link": "/shirt-sunny-kids"
+	},
+	{
+		"prodId": 1300,
+		"category": [
+			"child",
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "2280",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 3,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"yellow"
+		],
+		"images": [
+			"media/images/sunny-kids-1.jpg",
+			"media/images/sunny-kids-2.jpg",
+			"media/images/sunny-kids-3.jpg",
+			"media/images/sunny-kids-4.jpg"
+		],
+		"title": "Sunny Kids yellow embroidered shirt for a girl",
+		"link": "/shirt-sunny-kids"
+	},
+	{
+		"prodId": 1400,
+		"category": [
+			"child",
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/kolo-day-1.jpg",
+			"media/images/kolo-day-2.jpg",
+			"media/images/kolo-day-3.jpg",
+			"media/images/kolo-day-4.jpg"
+		],
+		"title": "Kolo Daylinen embroidered dress",
+		"link": "/kolo-daylinen"
+	},
+	{
+		"prodId": 1400,
+		"category": [
+			"child",
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/kolo-day-1.jpg",
+			"media/images/kolo-day-2.jpg",
+			"media/images/kolo-day-3.jpg",
+			"media/images/kolo-day-4.jpg"
+		],
+		"title": "Kolo Daylinen embroidered dress",
+		"link": "/kolo-daylinen"
+	},
+	{
+		"prodId": 1400,
+		"category": [
+			"child",
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "3800",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 3,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/kolo-day-1.jpg",
+			"media/images/kolo-day-2.jpg",
+			"media/images/kolo-day-3.jpg",
+			"media/images/kolo-day-4.jpg"
+		],
+		"title": "Kolo Daylinen embroidered dress",
+		"link": "/kolo-daylinen"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-10",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-11",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-11pro",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-12",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-12pro",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1500,
+		"category": [
+			"accessories"
+		],
+		"price": {
+			"base": 260,
+			"currency": "UAH"
+		},
+		"size": "iphone-13promax",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"turquoise"
+		],
+		"images": [
+			"media/images/iPhone-varenyk-1.jpg"
+		],
+		"title": "Case for iPhone Varenyk",
+		"link": "/case-varenyk"
+	},
+	{
+		"prodId": 1600,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"Тканина - льон. Техніка виконання - гладь, аплікація (машинна вишивка). Нитки - бавовна. Зріст Аліни - 184 см, на ній розмір S. Крій сукні - oversize. Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці. Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/etnodim_sarafan_eva_9.jpg",
+			"media/images/etnodim_sarafan_eva_2.jpg",
+			"media/images/etnodim_sarafan_eva_3.jpg",
+			"media/images/etnodim_sarafan_eva_7.jpg"
+		],
+		"title": "Linen sundress with Eva Summer Black appliqué",
+		"link": "/vyshyvanka-eva-summer-black-product"
+	},
+	{
+		"prodId": 1600,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 1,
+		"features": [
+			"Тканина - льон. Техніка виконання - гладь, аплікація (машинна вишивка). Нитки - бавовна. Зріст Аліни - 184 см, на ній розмір S. Крій сукні - oversize. Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці. Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/etnodim_sarafan_eva_9.jpg",
+			"media/images/etnodim_sarafan_eva_2.jpg",
+			"media/images/etnodim_sarafan_eva_3.jpg",
+			"media/images/etnodim_sarafan_eva_7.jpg"
+		],
+		"title": "Linen sundress with Eva Summer Black appliqué",
+		"link": "/vyshyvanka-eva-summer-black-product"
+	},
+	{
+		"prodId": 1600,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 2,
+		"features": [
+			"Тканина - льон. Техніка виконання - гладь, аплікація (машинна вишивка). Нитки - бавовна. Зріст Аліни - 184 см, на ній розмір S. Крій сукні - oversize. Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці. Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/etnodim_sarafan_eva_9.jpg",
+			"media/images/etnodim_sarafan_eva_2.jpg",
+			"media/images/etnodim_sarafan_eva_3.jpg",
+			"media/images/etnodim_sarafan_eva_7.jpg"
+		],
+		"title": "Linen sundress with Eva Summer Black appliqué",
+		"link": "/vyshyvanka-eva-summer-black-product"
+	},
+	{
+		"prodId": 1600,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 2,
+		"features": [
+			"Тканина - льон. Техніка виконання - гладь, аплікація (машинна вишивка). Нитки - бавовна. Зріст Аліни - 184 см, на ній розмір S. Крій сукні - oversize. Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці. Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/etnodim_sarafan_eva_9.jpg",
+			"media/images/etnodim_sarafan_eva_2.jpg",
+			"media/images/etnodim_sarafan_eva_3.jpg",
+			"media/images/etnodim_sarafan_eva_7.jpg"
+		],
+		"title": "Linen sundress with Eva Summer Black appliqué",
+		"link": "/vyshyvanka-eva-summer-black-product"
+	},
+	{
+		"prodId": 1600,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6800",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 1,
+		"features": [
+			"Тканина - льон. Техніка виконання - гладь, аплікація (машинна вишивка). Нитки - бавовна. Зріст Аліни - 184 см, на ній розмір S. Крій сукні - oversize. Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці. Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/etnodim_sarafan_eva_9.jpg",
+			"media/images/etnodim_sarafan_eva_2.jpg",
+			"media/images/etnodim_sarafan_eva_3.jpg",
+			"media/images/etnodim_sarafan_eva_7.jpg"
+		],
+		"title": "Linen sundress with Eva Summer Black appliqué",
+		"link": "/vyshyvanka-eva-summer-black-product"
+	},
+	{
+		"prodId": 1700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"sizes": "XS",
+		"amount": 2,
+		"features": [
+			"The fabric is linen. Execution technique - decorative stitch, smooth (machine embroidery). Threads - cotton"
+		],
+		"colors": [
+			"red"
+		],
+		"images": [
+			"media/images/etnodim_oksamyt_1.jpg",
+			"media/images/etnodim_oksamyt_2.jpg",
+			"media/images/etnodim_oksamyt_3.jpg"
+		],
+		"title": "Oksamyt women's vyshyvanka with floral ornament",
+		"link": "/vyshyvanka-oksamyt"
+	},
+	{
+		"prodId": 1700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"sizes": "S",
+		"amount": 3,
+		"features": [
+			"The fabric is linen. Execution technique - decorative stitch, smooth (machine embroidery). Threads - cotton"
+		],
+		"colors": [
+			"red"
+		],
+		"images": [
+			"media/images/etnodim_oksamyt_1.jpg",
+			"media/images/etnodim_oksamyt_2.jpg",
+			"media/images/etnodim_oksamyt_3.jpg"
+		],
+		"title": "Oksamyt women's vyshyvanka with floral ornament",
+		"link": "/vyshyvanka-oksamyt"
+	},
+	{
+		"prodId": 1700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"sizes": "M",
+		"amount": 5,
+		"features": [
+			"The fabric is linen. Execution technique - decorative stitch, smooth (machine embroidery). Threads - cotton"
+		],
+		"colors": [
+			"red"
+		],
+		"images": [
+			"media/images/etnodim_oksamyt_1.jpg",
+			"media/images/etnodim_oksamyt_2.jpg",
+			"media/images/etnodim_oksamyt_3.jpg"
+		],
+		"title": "Oksamyt women's vyshyvanka with floral ornament",
+		"link": "/vyshyvanka-oksamyt"
+	},
+	{
+		"prodId": 1700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"sizes": "L",
+		"amount": 1,
+		"features": [
+			"The fabric is linen. Execution technique - decorative stitch, smooth (machine embroidery). Threads - cotton"
+		],
+		"colors": [
+			"red"
+		],
+		"images": [
+			"media/images/etnodim_oksamyt_1.jpg",
+			"media/images/etnodim_oksamyt_2.jpg",
+			"media/images/etnodim_oksamyt_3.jpg"
+		],
+		"title": "Oksamyt women's vyshyvanka with floral ornament",
+		"link": "/vyshyvanka-oksamyt"
+	},
+	{
+		"prodId": 1700,
+		"category": [
+			"women",
+			"embroidery"
+		],
+		"price": {
+			"base": "4800",
+			"currency": "UAH"
+		},
+		"sizes": "XL",
+		"amount": 1,
+		"features": [
+			"The fabric is linen. Execution technique - decorative stitch, smooth (machine embroidery). Threads - cotton"
+		],
+		"colors": [
+			"red"
+		],
+		"images": [
+			"media/images/etnodim_oksamyt_1.jpg",
+			"media/images/etnodim_oksamyt_2.jpg",
+			"media/images/etnodim_oksamyt_3.jpg"
+		],
+		"title": "Oksamyt women's vyshyvanka with floral ornament",
+		"link": "/vyshyvanka-oksamyt"
+	},
+	{
+		"prodId": 1800,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "8900",
+			"currency": "UAH"
+		},
+		"size": "XXS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/nizhnist_black_1.jpg",
+			"media/images/nizhnist_black_2.jpg",
+			"media/images/nizhnist_black_3.jpg",
+			"media/images/nizhnist_black_4.jpg"
+		],
+		"title": "Black linen dress with Nizhnist Black embroidery",
+		"link": "/vyshyvanka-nizhnist-black-product"
+	},
+	{
+		"prodId": 1800,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "8900",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 2,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/nizhnist_black_1.jpg",
+			"media/images/nizhnist_black_2.jpg",
+			"media/images/nizhnist_black_3.jpg",
+			"media/images/nizhnist_black_4.jpg"
+		],
+		"title": "Black linen dress with Nizhnist Black embroidery",
+		"link": "/vyshyvanka-nizhnist-black-product"
+	},
+	{
+		"prodId": 1800,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "8900",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 3,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/nizhnist_black_1.jpg",
+			"media/images/nizhnist_black_2.jpg",
+			"media/images/nizhnist_black_3.jpg",
+			"media/images/nizhnist_black_4.jpg"
+		],
+		"title": "Black linen dress with Nizhnist Black embroidery",
+		"link": "/vyshyvanka-nizhnist-black-product"
+	},
+	{
+		"prodId": 1800,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "8900",
+			"currency": "UAH"
+		},
+		"size": "M",
+		"amount": 5,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/nizhnist_black_1.jpg",
+			"media/images/nizhnist_black_2.jpg",
+			"media/images/nizhnist_black_3.jpg",
+			"media/images/nizhnist_black_4.jpg"
+		],
+		"title": "Black linen dress with Nizhnist Black embroidery",
+		"link": "/vyshyvanka-nizhnist-black-product"
+	},
+	{
+		"prodId": 1800,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "8900",
+			"currency": "UAH"
+		},
+		"size": "L",
+		"amount": 1,
+		"features": [
+			"72 sheets of premium lined paper"
+		],
+		"colors": [
+			"black"
+		],
+		"images": [
+			"media/images/nizhnist_black_1.jpg",
+			"media/images/nizhnist_black_2.jpg",
+			"media/images/nizhnist_black_3.jpg",
+			"media/images/nizhnist_black_4.jpg"
+		],
+		"title": "Black linen dress with Nizhnist Black embroidery",
+		"link": "/vyshyvanka-nizhnist-black-product"
+	},
+	{
+		"prodId": 1900,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6900",
+			"currency": "UAH"
+		},
+		"size": "XS",
+		"amount": 2,
+		"features": [
+			"Тканина - льон",
+			"Техніка виконання - гладь, аплікація (машинна вишивка)",
+			"Нитки - бавовна",
+			"Зріст Аліни - 184 см, на ній розмір S",
+			"Крій сукні - oversize",
+			"Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці.",
+			"Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/sundress-applique_1.jpg",
+			"media/images/sundress-applique_2.jpg",
+			"media/images/sundress-applique_3.jpg",
+			"media/images/sundress-applique_4.jpg",
+			"media/images/sundress-applique_5.jpg",
+			"media/images/sundress-applique_6.jpg"
+		],
+		"title": "Linen sundress with Eva Summer appliqué",
+		"link": "/linen-sundress-appliqué"
+	},
+	{
+		"prodId": 1900,
+		"category": [
+			"women",
+			"dress"
+		],
+		"price": {
+			"base": "6900",
+			"currency": "UAH"
+		},
+		"size": "S",
+		"amount": 3,
+		"features": [
+			"Тканина - льон",
+			"Техніка виконання - гладь, аплікація (машинна вишивка)",
+			"Нитки - бавовна",
+			"Зріст Аліни - 184 см, на ній розмір S",
+			"Крій сукні - oversize",
+			"Довгий сарафан А-силуету, спереду розріз з застібкою на ґудзиках. Зібрана по горловині, та нижній частині спідниці.",
+			"Якщо ви не впевнені щодо розміру - зверніться до наших менеджерів, ми завжди раді Вам допомогти."
+		],
+		"colors": [
+			"beige"
+		],
+		"images": [
+			"media/images/sundress-applique_1.jpg",
+			"media/images/sundress-applique_2.jpg",
+			"media/images/sundress-applique_3.jpg",
+			"media/images/sundress-applique_4.jpg",
+			"media/images/sundress-applique_5.jpg",
+			"media/images/sundress-applique_6.jpg"
+		],
+		"title": "Linen sundress with Eva Summer appliqué",
+		"link": "/linen-sundress-appliqué"
+	}
+]

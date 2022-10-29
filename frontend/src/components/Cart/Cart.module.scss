@@ -151,7 +151,7 @@
   height: 100%;
 }
 
-.basketList.scrolled {
+.basketList {
   padding-right: 15px;
   overflow: hidden;
   overflow-y: auto;
@@ -418,6 +418,8 @@
   color: #1e2022;
   -webkit-appearance: none;
   -moz-appearance: none;
+  padding: 0 10px;
+  margin-left: -10px;
 }
 
 .basket .skuPropList::-ms-expand {
@@ -430,4 +432,9 @@
   &:hover {
     text-decoration: underline;
   }
+}
+
+.disabledBtn{
+  pointer-events: none !important;
+  opacity: 0.2
 }

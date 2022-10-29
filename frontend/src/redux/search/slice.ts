@@ -2,17 +2,12 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 import { fetchItems } from "./asyncSearch";
 import { Product, SearchSliceState } from "./types";
-
-export enum Status {
-  LOADING = "loading",
-  SUCCESS = "success",
-  ERROR = "error",
-}
+import {Status} from "../../@types";
 
 const initialState: SearchSliceState = {
   value: "",
   result: [],
-  status: "",
+  status: Status.SUCCESS,
 };
 
 export const Slice = createSlice({

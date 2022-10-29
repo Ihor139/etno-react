@@ -5,6 +5,7 @@ import navigationReducer from "./navigation/slice";
 import searchReducer from "./search/slice";
 import productPreviewReducer from "./productPreview/slice";
 import postsPreviewReducer from "./postsPreview/slice";
+import cartReducer from "./cart/slice";
 
 export const store = configureStore({
   reducer: {
@@ -12,6 +13,7 @@ export const store = configureStore({
     searchReducer,
     productPreviewReducer,
     postsPreviewReducer,
+    cartReducer,
   },
 });
 
