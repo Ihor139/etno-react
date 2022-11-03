@@ -9,13 +9,10 @@ class GuestService {
 		return doc;
 	};
 
-	async delete(id: string) {
-	};
-
 	async findToken(token: string) {
-		return await GuestModel.findOne({
+		return GuestModel.findOne({
 			token: token
-		})
+		});
 	}
 }
 

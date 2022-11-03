@@ -1,10 +1,11 @@
 import {Request, Response} from "express";
 import ProductService from '../service/Product'
+import {Product} from "../types";
 
 class ProductController {
 	async getAll(req: Request, res: Response) {
 		try {
-			const products = await ProductService.getAll()
+			const products: Product[] = await ProductService.getAll()
 			res.json(products);
 		} catch (error) {
 			res.status(500).json({
@@ -15,7 +16,7 @@ class ProductController {
 
 	async getNew(req: Request, res: Response) {
 		try {
-			const products = await ProductService.getNew();
+			const products: Product[] = await ProductService.getNew();
 			res.json(products);
 		} catch (error) {
 			res.status(500).json({

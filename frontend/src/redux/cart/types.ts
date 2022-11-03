@@ -1,23 +1,28 @@
-import {Product} from "../productPreview/types";
 import {Status} from "../../@types";
+import {Product, Size} from "../productPreview/types";
 
-export type CartItem = {
+export type CartSliceState = {
+	visitor: CartGroup;
+	status: Status
+};
+
+export type CartItemNew = {
+	prodId: string;
+	_id: string | undefined;
+	size: string | undefined;
+	amount: number;
+};
+
+export type CartCase = {
+	amount: number;
 	product: Product;
 	size: string;
-	amount: number;
-	sizes: {
-		[x: string]: string
-	};
-}
-
-export type CartItems = {
+	sizes: Size[];
 	_id: string;
+}
+
+export type CartGroup = {
+	products: CartCase[];
 	token: string;
-	products: CartItem[]
+	_id: string
 }
-
-export interface CartSliceState {
-	items: CartItems[];
-	status: Status
-}
-

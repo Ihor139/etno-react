@@ -13,7 +13,9 @@ import {fetchCart, removeFromCart, updateQuantity} from "../../redux/cart/asyncC
 const Cart: React.FC = () => {
 	const dispatch = useDispatch<AppDispatch>();
 	const {cartOpened, setCartOpened} = useHeaderContext();
-	const {items} = useSelector(selectCart);
+	const {visitor} = useSelector(selectCart);
+
+	const [totalSum, setTotalSum] = React.useState<number>()
 
 	const handleClickOutside = () => {
 		setCartOpened(false);
@@ -21,25 +23,33 @@ const Cart: React.FC = () => {
 
 	const ref = useOutsideClick(handleClickOutside);
 
+	const calculateTotalSum = () => {
+		const prices = visitor?.products.map(item => item.product.price.base * item.amount)
+		const total = prices?.reduce((partialSum, item) => partialSum + item, 0);
+		setTotalSum(total)
+	}
+
 	React.useEffect(() => {
 		dispatch(fetchCart());
 	}, [])
 
-	const plusHandler = async (id: string, count: string) => {
+	React.useEffect(() => {
+		calculateTotalSum()
+	}, [visitor])
+
+	const plusHandler = async (id: string, count: number) => {
 		const data = {
 			_id: id,
 			amount: Number(count) + 1,
 		}
-		// @ts-ignore
 		dispatch(updateQuantity(data));
 	}
 
-	const minusHandler = async (id: string, count: string ) => {
+	const minusHandler = async (id: string, count: number) => {
 		const data = {
 			_id: id,
 			amount: Number(count) - 1,
 		}
-		// @ts-ignore
 		dispatch(updateQuantity(data));
 	}
 
@@ -47,7 +57,6 @@ const Cart: React.FC = () => {
 		const item = {
 			_id: id
 		};
-		// @ts-ignore
 		dispatch(removeFromCart(item));
 	}
 
@@ -67,7 +76,7 @@ const Cart: React.FC = () => {
 								<div className={styles.basketContainer}>
 									<div className={styles.basketTop}>
 										<div className={styles.basketTitle}>
-											You put this in your cart:
+											{visitor.products.length > 0 ? "You put this in your cart:" : "Your cart is empty"}
 										</div>
 										<div
 											className={clsx(["popup__close", styles.basketClose])}
@@ -129,9 +138,8 @@ const Cart: React.FC = () => {
 									<div className={styles.basketListWrapp}>
 										<div className={styles.basketList}>
 
-											{// @ts-ignore
-												items?.products?.map(({_id, size, sizes, product, amount}, ind: React.Key | null | undefined) => {
-													return <div key={ind} className={styles.basketCase}>
+											{visitor.products?.map(({_id, size, product, amount}) => {
+													return <div key={_id} className={styles.basketCase}>
 														<div className={styles.basketCaseBody}>
 															<div className={styles.basketImageWrapp}>
 																<div className={styles.basketCaseImage}>
@@ -163,7 +171,7 @@ const Cart: React.FC = () => {
 																				styles.basketCaseColLabel,
 																			])}
 																		>
-																			Розмір
+																			Size
 																		</div>
 																		<div
 																			className={clsx([
@@ -196,7 +204,7 @@ const Cart: React.FC = () => {
 																				styles.basketCaseColLabel,
 																			])}
 																		>
-																			К-сть
+																			Q-ty
 																		</div>
 																		<div
 																			className={clsx([
@@ -204,7 +212,7 @@ const Cart: React.FC = () => {
 																				styles.basketCounter,
 																			])}
 																		>
-																			<span className={clsx([styles.minus, amount == '1' && styles.disabledBtn])}
+																			<span className={clsx([styles.minus, amount == 1 && styles.disabledBtn])}
 																						onClick={() => minusHandler(_id, amount)}>-</span>
 																			<input
 																				className={styles.counter}
@@ -212,8 +220,9 @@ const Cart: React.FC = () => {
 																				value={amount >= product.amount ? product.amount : amount}
 																				readOnly
 																			/>
-																			<span className={clsx([styles.plus, amount >= product.amount && styles.disabledBtn])}
-																						onClick={() => plusHandler(_id, amount)}>+</span>
+																			<span
+																				className={clsx([styles.plus, amount >= product.amount && styles.disabledBtn])}
+																				onClick={() => plusHandler(_id, amount)}>+</span>
 																		</div>
 																	</div>
 																	<div
@@ -228,7 +237,7 @@ const Cart: React.FC = () => {
 																				styles.basketCaseColLabel,
 																			])}
 																		>
-																			Ціна
+																			Price
 																		</div>
 																		<div
 																			className={clsx([
@@ -254,7 +263,7 @@ const Cart: React.FC = () => {
 																				styles.basketCaseColLabel,
 																			])}
 																		>
-																			Сума
+																			Total
 																		</div>
 																		<div
 																			className={clsx([
@@ -262,7 +271,7 @@ const Cart: React.FC = () => {
 																				styles.basketCaseColTxt,
 																			])}
 																		>
-																			<span>{product.price.base}</span>
+																			<span>{product.price.base * amount}</span>
 																			<span className={styles.currencyIco}>
 																	{product.price.currency}
 																</span>
@@ -301,19 +310,20 @@ const Cart: React.FC = () => {
 										</div>
 									</div>
 									<div className={styles.basketActions}>
-										<div className={styles.basketProdWrapp}>
+										{visitor.products.length > 0 ? (<div className={styles.basketProdWrapp}>
 											<div className={styles.basketProdTitle}>
-												The total cost: 15600 грн
+												The total cost: {totalSum} UAH
 											</div>
-										</div>
+										</div>) : null}
 										<div className={styles.basketButtons}>
-											<button
+											{visitor.products.length > 0 ? (<button
 												className={clsx([styles.basketBtn, styles.btnDark])}
 											>
 												Go to cart
-											</button>
+											</button>) : null}
 											<button
 												className={clsx([styles.basketBtn, styles.btnLight])}
+												onClick={() => setCartOpened(false)}
 											>
 												Continue shopping
 											</button>

@@ -1,11 +1,11 @@
 import {Request, Response} from "express";
 import PostService from "../service/Post";
+import {Post} from "../types";
 
 class PostController {
 	async getAll(req: Request, res: Response) {
 		try {
-			/** получаем список постов*/
-			const posts = await PostService.getAll()
+			const posts: Post[] = await PostService.getAll();
 			res.json(posts);
 		} catch (error) {
 			res.status(500).json({

@@ -1,9 +1,9 @@
-import {Product} from "../../models/types";
 import {ProductModel} from "../../models";
+import {Product, Size} from "../../types";
 
 class ProductService {
 	async getAll() {
-		const products = await ProductModel.aggregate([
+		return ProductModel.aggregate([
 			{
 				$group: {
 					_id: "$prodId",
@@ -12,8 +12,7 @@ class ProductService {
 					}
 				}
 			}
-		])
-		return products;
+		]);
 	};
 
 	async getNew() {
@@ -29,8 +28,8 @@ class ProductService {
 		]).sort({_id: -1}).limit(4);
 
 		return products.map(product => {
-			let prodSizes: { [x: number]: string; }[] = []
-			product.items.forEach((item: any) => {
+			let prodSizes: Size[] = [];
+			product.items.forEach((item: Product) => {
 				const key = item.size;
 				const size = {
 					[key]: item._id
@@ -50,7 +49,7 @@ class ProductService {
 			throw new Error('ID is not specified')
 		}
 
-		return await ProductModel.findOne({
+		return ProductModel.findOne({
 			_id: id,
 		});
 	};
@@ -59,14 +58,14 @@ class ProductService {
 		if (!product._id) {
 			throw new Error('ID is not specified')
 		}
-		return await ProductModel.findByIdAndUpdate(product._id, product, {new: true});
+		return ProductModel.findByIdAndUpdate(product._id, product, {new: true});
 	}
 
 	async delete(id: string) {
 		if (!id) {
 			throw new Error('ID is not specified')
 		}
-		return await ProductModel.findByIdAndDelete(id);
+		return ProductModel.findByIdAndDelete(id);
 	}
 }
 

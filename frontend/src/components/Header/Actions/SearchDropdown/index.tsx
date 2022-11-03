@@ -51,13 +51,9 @@ const SearchDropdown: React.FC = () => {
   };
 
   React.useEffect(() => {
-    if (isMount) {
+    if (!isMount && searchTerm) {
       // First Render
-    } else {
-      // Subsequent Render
-      if (searchTerm) {
-        dispatch(fetchItems(searchTerm));
-      }
+      dispatch(fetchItems(searchTerm));
     }
   }, [searchTerm]);
 
@@ -83,7 +79,7 @@ const SearchDropdown: React.FC = () => {
                     type="text"
                     placeholder="Start typing to search"
                   />
-                  {searchStatus == Status.LOADING ? (
+                  {searchStatus === Status.LOADING ? (
                     <span className={styles.inputIco}>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -270,7 +266,7 @@ const SearchDropdown: React.FC = () => {
                 </div>
               </div>
             )}
-            {searchTerm && searchResult.length == 0 && (
+            {searchTerm && searchResult.length === 0 && (
               <div className={styles.result}>
                 <div className={styles.resultInner}>
                   <p>Nothing was found for your request</p>

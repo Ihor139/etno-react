@@ -1,15 +1,23 @@
 import {createSlice} from "@reduxjs/toolkit";
 import {addToCart, fetchCart, removeFromCart, updateQuantity} from "./asyncCart";
-import {CartItems, CartSliceState} from "./types";
 import {Status} from "../../@types";
+import {CartGroup, CartSliceState} from "./types";
 
 const initialState: CartSliceState = {
-	items: [],
+	visitor: {
+		products: [],
+		token: '',
+		_id: ''
+	},
 	status: Status.LOADING,
 };
 
 const rejectionItemsReducer = (state: CartSliceState) => {
-	state.items = [];
+	state.visitor = {
+		products: [],
+		token: '',
+		_id: ''
+	};
 	state.status = Status.ERROR;
 };
 
@@ -17,11 +25,10 @@ const pendingItemsReducer = (state: CartSliceState) => {
 	state.status = Status.LOADING;
 };
 
-const fulfilledItemsReducer = (state: CartSliceState, action: { payload: CartItems[]; }) => {
-	state.items = action.payload;
+const fulfilledItemsReducer = (state: CartSliceState, action: { payload: CartGroup; }) => {
+	state.visitor = action.payload;
 	state.status = Status.SUCCESS;
 };
-
 
 export const slice = createSlice({
 	name: "cart",

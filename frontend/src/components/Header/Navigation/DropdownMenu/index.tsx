@@ -1,10 +1,8 @@
 import React from "react";
 import MenuItems from "../MenuItems";
 
-import styles from "./DropdownMenu.module.scss";
-
 type Menu = {
-  id: string;
+  id: number;
   title: string;
   dataImage: string;
 };

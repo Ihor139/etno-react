@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import styles from "./FooterNavigation.module.scss";
 
 const navData = [
-  { id: 0, title: "Команда", link: "#" },
-  { id: 1, title: "Новини", link: "#" },
-  { id: 2, title: "Контакти", link: "#" },
-  { id: 3, title: "Про нас", link: "#" },
-  { id: 4, title: "Доставка та оплата", link: "#" },
+  { id: 0, title: "Team", link: "#" },
+  { id: 1, title: "News", link: "#" },
+  { id: 2, title: "Contacts", link: "#" },
+  { id: 3, title: "About", link: "#" },
+  { id: 4, title: "Delivery and payment", link: "#" },
   { id: 5, title: "Drabyna", link: "#", color: "light-color" },
 ];
 
@@ -44,7 +44,7 @@ const FooterNavigation: React.FC = () => {
         onMouseLeave={() => setSubMenuActive(!isSubMenuActive)}
       >
         <div className={styles.link}>
-          <span className="txt">Колекції</span>
+          <span className="txt">Collections</span>
           <span className="ico">
             <svg
               width="12"
@@ -86,12 +86,12 @@ const FooterNavigation: React.FC = () => {
         <ul className={clsx([styles.submenu, isSubMenuActive && styles.open])}>
           <li className={styles.subitem}>
             <Link className={styles.link} to="/ua/etnodim_manifest/">
-              Етнодім Маніфест 2021
+              Ethnodim Manifesto 2021
             </Link>
           </li>
           <li className={styles.subitem}>
             <Link className={styles.link} to="/ua/etnodim_manifest/">
-              Художня Колекція Etnodim
+              Etnodim Art Collection
             </Link>
           </li>
         </ul>

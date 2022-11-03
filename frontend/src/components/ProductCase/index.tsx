@@ -7,17 +7,14 @@ import "@splidejs/react-splide/css";
 import styles from "./ProductCase.module.scss";
 
 //redux
-import {Product} from "../../redux/productPreview/types";
 import {addToCart} from "../../redux/cart/asyncCart";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {AppDispatch} from "../../redux/store";
 
-export type CartItemNew = {
-	prodId: string;
-	_id: string;
-	size: string | undefined; // to do
-	amount: number;
-};
+//types
+import {CartItemNew} from "../../redux/cart/types";
+import {Product} from "../../redux/productPreview/types";
+import {selectCart} from "../../redux/cart/selectors";
 
 const ProductCase: React.FC<Product> = ({
 																					prodId,
@@ -33,6 +30,8 @@ const ProductCase: React.FC<Product> = ({
 	const [activeSize, setActiveSize] = React.useState<string>();
 	const [activeSizeId, setActiveSizeId] = React.useState<string>();
 
+	const {visitor} = useSelector(selectCart);
+
 	const onClickAddToCart = async () => {
 		const item: CartItemNew = {
 			prodId,
@@ -40,7 +39,6 @@ const ProductCase: React.FC<Product> = ({
 			size: activeSize || size,
 			amount: 1,
 		};
-		// @ts-ignore
 		dispatch(addToCart(item))
 	};
 
@@ -168,19 +166,22 @@ const ProductCase: React.FC<Product> = ({
 								{sizes?.map((size, ind) => (
 									<li key={ind} className={clsx([styles.goodsCaseSizesItem])}>
 										<button
-											className={clsx(activeSize === Object.keys(size)[0] && styles.activeSize)}
+											className={clsx([activeSize === Object.keys(size)[0] && styles.activeSize])}
 											onClick={() => {
 												setActiveSize(Object.keys(size)[0])
-												// @ts-ignore
 												setActiveSizeId(size[Object.keys(size)[0]])
 											}}
-										>{Object.keys(size)[0]}</button>
+
+										>
+											{Object.keys(size)[0]}
+										</button>
 									</li>
 								))}
 							</ul>
 							<button
 								onClick={onClickAddToCart}
-								className={clsx([styles.goodsCaseBuy])}>+ в кошик
+								className={clsx([styles.goodsCaseBuy])}>
+								в кошик
 							</button>
 						</div>
 					</div>

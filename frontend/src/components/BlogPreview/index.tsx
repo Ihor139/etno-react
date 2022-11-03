@@ -29,7 +29,7 @@ const BlogPreview: React.FC = () => {
         </div>
         <div className={clsx([styles.blogLink])}>
           <Link className={clsx(["site-link site-link--arrow"])} to="#">
-            <span className="txt">До всіх новин</span>
+            <span className="txt">To all the news</span>
             <span className="ico">
               <svg
                 width="12"

@@ -1,15 +1,14 @@
 import mongoose from "mongoose";
+import {NavigationItem} from "../types";
 
 const NavigationShema = new mongoose.Schema(
   {
-    id: {
-      type: Number,
-      required: true,
-    },
-    dataMenu: {
-      type: String,
-    },
+    _id: mongoose.Schema.Types.ObjectId,
     title: {
+      type: String,
+      required: true
+    },
+    link: {
       type: String,
       required: true
     },
@@ -33,6 +32,10 @@ const NavigationShema = new mongoose.Schema(
           type: String,
           required: true
         },
+        link: {
+          type: String,
+          required: true
+        },
       },
     },
   },
@@ -42,4 +45,4 @@ const NavigationShema = new mongoose.Schema(
 );
 
 
-export default mongoose.model("Navigation", NavigationShema);
+export default mongoose.model<NavigationItem & mongoose.Document>("Navigation", NavigationShema);

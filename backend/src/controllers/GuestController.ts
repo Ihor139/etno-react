@@ -1,11 +1,12 @@
 import {Request, Response} from "express";
 import {GuestService, TokenService} from "../service";
+import {Guest} from "../types";
 
 class GuestController {
 	async add(req: Request, res: Response) {
 		try {
-			const cookieToken = req.cookies.userToken;
-			const dbToken = await GuestService.findToken(cookieToken);
+			const cookieToken: string = req.cookies.userToken;
+			const dbToken: Guest | null = await GuestService.findToken(cookieToken);
 
 			if (cookieToken && dbToken) {
 				res.status(200);
@@ -15,28 +16,17 @@ class GuestController {
 				return
 			}
 
-			const token = TokenService.generateRandom();
-			const guest = await GuestService.add(token);
+			const token: string = TokenService.generateRandom();
+			const guest: Guest = await GuestService.add(token);
 
 			res.cookie("userToken", token);
-			res.json(guest)
+			res.json(guest);
 		} catch (error) {
 			res.status(500).json({
 				message: "Failed to register guest",
 			});
 		}
 	}
-
-	async delete(req: Request, res: Response) {
-		try {
-			res.json({})
-		} catch (error) {
-			res.status(500).json({
-				message: "Failed to login guest",
-			});
-		}
-	}
-
 }
 
 export default new GuestController();

@@ -1,10 +1,11 @@
 import {Request, Response} from "express";
 import NavigationService from "../service/Navigation";
+import {NavigationItem} from "../types";
 
 class NavigationController {
 	async getAll(req: Request, res: Response) {
 		try {
-			const navigation = await NavigationService.getAll()
+			const navigation: NavigationItem[] = await NavigationService.getAll();
 			res.json(navigation);
 		} catch (error) {
 			console.log(error);

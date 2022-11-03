@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
 
         <div className={styles.quote}>
           <p>
-            Слава Україні
+            Slava Ukrayini
             <span className={styles.ico}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
         <div className={styles.copyright}>
-          <p>© 2022 Etnodim. Всі права захищені</p>
+          <p>© 2022 Etnodim. All rights reserved</p>
         </div>
       </div>
     </footer>

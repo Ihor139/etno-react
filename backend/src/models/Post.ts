@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
+import {Post} from "../types";
 
-/** 7.1 создание модели статьи */
 const PostSchema = new mongoose.Schema(
   {
     title: {
@@ -23,4 +23,4 @@ const PostSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model("Post", PostSchema);
+export default mongoose.model<Post & mongoose.Document>("Post", PostSchema);

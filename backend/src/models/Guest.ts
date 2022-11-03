@@ -1,4 +1,5 @@
-const mongoose = require("mongoose");
+import {Guest} from "../types";
+import mongoose from "mongoose";
 
 const GuestSchema = new mongoose.Schema({
 	token: {
@@ -9,18 +10,17 @@ const GuestSchema = new mongoose.Schema({
 	products: [{
 		size: String,
 		amount: Number,
+		sum: Number,
 		product: {
-			type: mongoose.Schema.ObjectId,
+			type: mongoose.Schema.Types.ObjectId,
 			ref: 'Product',
 		},
-
 		sizes: Array,
-	}
-	],
+	}],
 	/**
 	 * add expired time
 	 */
 }, {collection: 'guests'});
 
 
-export default mongoose.model("Guest", GuestSchema);
+export default mongoose.model<Guest & mongoose.Document>("Guest", GuestSchema);

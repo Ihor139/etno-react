@@ -5,19 +5,24 @@ export interface ProductPreviewSliceState {
 	status: Status;
 }
 
+export type Size = {
+	[x: string]: string;
+}
+
 export type Product = {
-	prodId: string,
-	_id: string;
+	amount: number;
 	category: string[];
+	colors?: string[];
+	features?: string[];
+	images?: string[];
+	link: string;
 	price: {
 		base: number;
 		currency: string;
 	};
+	prodId: string,
 	size: string;
-	features?: string[];
-	colors?: string[];
-	images?: string[];
 	title: string;
-	link: string;
-	sizes: object[];
+	_id: string;
+	sizes: Size[]; // ????????
 };

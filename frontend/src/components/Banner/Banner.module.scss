@@ -2,6 +2,9 @@
   padding-bottom: 80px;
 }
 .inner {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .image picture {
@@ -14,4 +17,15 @@
 .image img {
   width: 100%;
   height: 100%;
+}
+
+.title{
+  position: absolute;
+  top: 30%;
+  left: 45px;
+  font-size: 70px;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
 }
